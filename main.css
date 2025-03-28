@@ -35,7 +35,7 @@ h2{
     display:flex;
     flex-wrap: wrap;
     max-width: 1200px;
-    
+    justify-content: center;
 }
 
 .check{
@@ -44,10 +44,20 @@ h2{
 
 #subText{
     margin: auto;
+    text-align: center;
 }
 
 .Download{
     margin:auto;
     display: flex;
+    justify-content: center;
+}
+
+#gymPhone img{
+    max-width: 35vh;
+}
+
+#gymPhone{
+    display:flex;
     justify-content: center;
 }
