@@ -1,4 +1,4 @@
-.title{
+#title{
     width: 100%;
     height: 100px;
     background-color: white;
@@ -18,6 +18,36 @@
 }
 
 body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #EBE9E6;
     margin: 0px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.checkBox{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    
+}
+
+.check{
+    padding: 15px;
+}
+
+#subText{
+    margin: auto;
+}
+
+.Download{
+    margin:auto;
+    display: flex;
+    justify-content: center;
 }
